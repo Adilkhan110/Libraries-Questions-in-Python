@@ -18,7 +18,7 @@ data = {
     'Gender': ['Male', 'Female', 'Male', 'Female', 'Male']
 }
 df = pd.DataFrame(data)
-print(df)
+# print(df)
 
 
 # 03: Write a code to create csv file name students.csv?
@@ -50,16 +50,16 @@ students_df_filled = students_df.fillna(0)
 # print(students_df_filled)
 
 # 07: Create a bar chart?
-# categories = ['A', 'B', 'C', 'D', 'E']
-# values = [10, 15, 7, 12, 20]
-# plt.bar(categories, values)
-# plt.title("Bar Chart Example")
-# plt.xlabel("Categories")
-# plt.ylabel("Values")
+categories = ['A', 'B', 'C', 'D', 'E']
+values = [10, 15, 7, 12, 20]
+plt.bar(categories, values)
+plt.title("Bar Chart Example")
+plt.xlabel("Categories")
+plt.ylabel("Values")
 # plt.show()
 
-# students = ["Ali", "Aysha", "Hamid", "Alice", "Adil"]
-# marks = [85, 90, 78, 92, 88]
-# plt.bar(students, marks)
-# plt.title("Student Marks")
-# plt.show()
+students = ["Ali", "Aysha", "Hamid", "Alice", "Adil"]
+marks = [85, 90, 78, 92, 88]
+plt.bar(students, marks)
+plt.title("Student Marks")
+plt.show()
