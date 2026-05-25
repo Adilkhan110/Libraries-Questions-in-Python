@@ -1,6 +1,6 @@
-,Name,Age,City,Gender
-0,Adil,20,Karachi,Male
-1,Aysha,30,Lahore,Female
-2,Hamid,28,Faisalabad,Male
-3,Alice,29,Islamabad,Female
-4,Ali,0,Multan,Male
+Name,Age,City,Gender
+Adil,20,Karachi,Male
+Aysha,30,Lahore,Female
+Hamid,28,Faisalabad,Male
+Alice,29,Islamabad,Female
+Ali,30,Multan,Male
